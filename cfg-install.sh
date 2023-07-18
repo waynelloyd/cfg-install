@@ -1,4 +1,4 @@
-git clone --bare git@gitlab.com:waynelloyd/cfg.git $HOME/.cfg
+git clone --bare git@github.com:waynelloyd/cfg.git $HOME/.cfg
 function cfg {
    /usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME $@
 }
